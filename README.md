@@ -6,22 +6,24 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ERROR in node_modules/blockstack/lib/encryption/ec.d.ts:2:21 - error TS2497: This module can only be referenced with ECMAScript imports/exports by turning on the 'allowSyntheticDefaultImports' flag and referencing its default export.
 
-## Build
+2 import * as BN from 'bn.js';
+                      ~~~~~~~
+node_modules/blockstack/lib/network.d.ts:2:21 - error TS2497: This module can only be referenced with ECMAScript imports/exports by turning on the 'allowSyntheticDefaultImports' flag and referencing its default export.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+2 import * as BN from 'bn.js';
+                      ~~~~~~~
+node_modules/blockstack/lib/operations/skeletons.d.ts:1:21 - error TS2497: This module can only be referenced with ECMAScript imports/exports by turning on the 'allowSyntheticDefaultImports' flag and referencing its default export.
 
-## Running unit tests
+1 import * as BN from 'bn.js';
+                      ~~~~~~~
+node_modules/blockstack/lib/operations/txbuild.d.ts:1:21 - error TS2497: This module can only be referenced with ECMAScript imports/exports by turning on the 'allowSyntheticDefaultImports' flag and referencing its default export.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1 import * as BN from 'bn.js';
+                      ~~~~~~~
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
