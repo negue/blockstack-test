@@ -12,6 +12,8 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "importHelpers": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
     "target": "es2015",
     "typeRoots": [
       "node_modules/@types"
